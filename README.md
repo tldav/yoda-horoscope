@@ -1,0 +1,2 @@
+# yoda-horoscope
+Horoscope translator
