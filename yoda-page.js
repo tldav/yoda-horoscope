@@ -45,7 +45,9 @@ $("button").click(function(){
 			//transaltes it to yoda talk 
 			  console.log(response.contents.translated)
 			  finishedp = response.contents.translated
-			  $("#yodadiv").append(finishedp)
+			//clears the div and puts new input
+			  $("#yodadiv").empty().append(finishedp)
+
 		});
 	});
 	
