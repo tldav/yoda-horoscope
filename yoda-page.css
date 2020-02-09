@@ -40,15 +40,13 @@ button {
 #output {
 	min-height: 100px;
 }
+
 .hide {
 	display: none;
 }
 
-footer {
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-	text-align: center;
+#button-end {
+	margin-bottom: 100px;
 }
 
 #copy {
