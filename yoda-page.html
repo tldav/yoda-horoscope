@@ -29,7 +29,7 @@
 		<header
 			class="bg-black border-double border-yellow-500 border-t-0 border-l-0 border-r-0 border-4"
 		>
-			<h1>STAR WARS</h1>
+			<h1 id="star-wars">STAR WARS</h1>
 			<h1>Episode IV: A New Scope</h1>
 		</header>
 		<div class="container">
@@ -38,7 +38,8 @@
 					<img class="yoda" src="assets/yoda.JPEG" alt="Yoda" />
 				</div>
 				<div
-					class="col-12 col-md-6 border-double border-yellow-500 rounded-lg border-4"
+					id="output"
+					class="col-12 col-md-6 border-double border-yellow-500 rounded-lg border-4 my-4 my-md-0"
 				>
 					<p id="yodadiv"></p>
 				</div>
@@ -46,32 +47,7 @@
 					<img class="sign" src="assets/leo.JPEG" alt="Sign" />
 				</div>
 			</div>
-
 			<div class="row">
-				<div class="col-6 col-md-4">
-					<button
-						value="capricorn"
-						class="bg-black text-yellow-500 rounded hover:bg-yellow-500 hover:text-black"
-					>
-						♑︎ Capricorn
-					</button>
-				</div>
-				<div class="col-6 col-md-4">
-					<button
-						value="aquarius"
-						class="bg-black text-yellow-500 rounded hover:bg-yellow-500 hover:text-black"
-					>
-						♒︎ Aquarius
-					</button>
-				</div>
-				<div class="col-6 col-md-4">
-					<button
-						value="pisces"
-						class="bg-black text-yellow-500 rounded hover:bg-yellow-500 hover:text-black"
-					>
-						♓︎ Pisces
-					</button>
-				</div>
 				<div class="col-6 col-md-4">
 					<button
 						value="aries"
@@ -144,8 +120,37 @@
 						♐︎ Sagittarius
 					</button>
 				</div>
+				<div class="col-6 col-md-4">
+					<button
+						value="capricorn"
+						class="bg-black text-yellow-500 rounded hover:bg-yellow-500 hover:text-black"
+					>
+						♑︎ Capricorn
+					</button>
+				</div>
+				<div class="col-6 col-md-4">
+					<button
+						value="aquarius"
+						class="bg-black text-yellow-500 rounded hover:bg-yellow-500 hover:text-black"
+					>
+						♒︎ Aquarius
+					</button>
+				</div>
+				<div class="col-6 col-md-4">
+					<button
+						value="pisces"
+						class="bg-black text-yellow-500 rounded hover:bg-yellow-500 hover:text-black"
+					>
+						♓︎ Pisces
+					</button>
+				</div>
 			</div>
 		</div>
+		<footer
+			class="bg-black border-double border-yellow-500 border-b-0 border-l-0 border-r-0 border-4"
+		>
+			<span id="copy">&#169;</span> YodaScope
+		</footer>
 		<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 		<script src="yoda-page.js"></script>
 	</body>

@@ -32,9 +32,9 @@ html {
 	background-size: cover;
 	width: 100%;
 	height: 100%;
-	font-family: "Droid Sans", arial, verdana, sans-serif;
+	font-family: "Russo One", sans-serif;
 	font-weight: 700;
-	color: #ebd71c;
+	color: #ecc94b;
 	background-color: #000;
 	overflow: hidden;
 	position: relative;
@@ -87,8 +87,8 @@ html {
 }
 
 .star-wars-intro .space-button {
-	color: #ebd71c;
-	border: 12px solid #ebd71c;
+	color: #ecc94b;
+	border: 12px solid #ecc94b;
 	padding: 20px;
 	background: transparent;
 	text-decoration: none;
@@ -98,15 +98,15 @@ html {
 }
 
 .star-wars-intro .space-button:hover {
-	background-color: #d2be03;
-	border-color: #d2be03;
+	background-color: #ecc94b;
+	border-color: #ecc94b;
 	color: black;
 }
 
 .star-wars-intro .space-button:active,
 .star-wars-intro .space-button:focus {
-	background-color: #b8a40a;
-	border-color: #b8a40a;
+	background-color: #ecc94b;
+	border-color: #ecc94b;
 	color: black;
 }
 
@@ -133,8 +133,8 @@ html {
 	line-height: 0.8em;
 	letter-spacing: -0.05em;
 	color: #000;
-	text-shadow: -2px -2px 0 #ebd71c, 2px -2px 0 #ebd71c, -2px 2px 0 #ebd71c,
-		2px 2px 0 #ebd71c;
+	text-shadow: -2px -2px 0 #ecc94b, 2px -2px 0 #ecc94b, -2px 2px 0 #ecc94b,
+		2px 2px 0 #ecc94b;
 	opacity: 0;
 	z-index: 1;
 	-webkit-animation: logo 5s ease-out 2.5s;
