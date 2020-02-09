@@ -14,6 +14,20 @@ html {
 	margin: 0px;
 }
 
+.page-footer {
+	background-color: #000;
+	color: #ecc94b;
+}
+
+.hide {
+	display: none;
+}
+
+a {
+	background-color: #000;
+	color: #ecc94b;
+}
+
 #proceed {
 	/* appearance: none;
       -moz-appearance: none;
