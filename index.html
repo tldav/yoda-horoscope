@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
+	<head> 
 		<!-- Required meta tags -->
 		<meta charset="utf-8" />
 		<meta
@@ -21,12 +21,27 @@
 		/>
 		<link rel="stylesheet" href="modifiedstarwars.css" />
 
-		<title>Yoda</title>
+		<title>YodaScope</title>
 	</head>
 	<body>
-		<button id="disappear" onclick="playAudio()" type="button">
+		<!-- adding navbar for play audio button and get yodascope shortcut button -->
+		<header class="page-header font-small fixed-top">
+			<a class="navbar-brand" id="disappear" onclick="playAudio()" href="#">Prepare For Your YodaScope, play this Audio you will. Patience, Virtue Is!</a>
+		</header>
+
+		<div id="footerHide" class="hide">
+		<footer class="page-footer font-small fixed-bottom">
+			
+			<div class="d-flex justify-content-end" id="navbarSupportedContent">
+				<div class="nav-item">
+				  <a class="nav-link" href="yoda-page.html">Get Your YodaScope</a>
+				</div>
+			</div>
+				
+		</footer></div>
+		<!-- <button id="disappear" onclick="playAudio()" type="button">
 			Play Audio
-		</button>
+		</button> -->
 		<audio id="myAudio">
 			<!-- <source src="star-wars-theme-song.mp3" type="audio/mpeg"> -->
 			<source src="assets/starwarsindia.m4a" type="audio/mpeg" />

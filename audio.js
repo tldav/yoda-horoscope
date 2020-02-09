@@ -1,13 +1,20 @@
-// this will play the music on the first index page after the user hits play audio
-
-var x = document.getElementById("myAudio"); 
-
-function playAudio() { 
+// when the document is ready:
+$(document).ready(function(){
+  // and the audio button is clicked: 
+  // audio button will dissappear and music will start:
+  function playAudio() { 
+    var x = document.getElementById("myAudio");
     $("#disappear").css("display", "none")
-  x.play(); 
-} 
-$(document).ready(function () {
-    
-$('#proceed').delay(95000).show(0); 
-
+    x.play(); 
+  }
+  // after 15000 ms, a footer with nav link will show in case user
+  // wants to skip music and intro
+  setTimeout(function(){
+    document.getElementById('footerHide').classList.remove('hide');
+  }, 10000);
+// the ugly play music button [required by google :()]
+// will disaaper after 1000 ms
+  setTimeout(function(){
+    document.getElementById('disappear').classList.add('hide');
+  }, 1000);
 })
