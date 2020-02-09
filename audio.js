@@ -17,5 +17,5 @@
 // will disaaper after 1000 ms
   setTimeout(function(){
     document.getElementById('disappear').classList.add('hide');
-  }, 1000);
+  }, 5000);
 })
