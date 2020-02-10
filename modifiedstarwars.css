@@ -162,6 +162,11 @@ a {
 	max-width: 100%;
 }
 
+/* .main-logo img {
+	width: 900px;
+	height: 100%;
+} */
+
 @-webkit-keyframes intro {
 	0% {
 		opacity: 1;
