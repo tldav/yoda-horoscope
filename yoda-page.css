@@ -22,6 +22,10 @@ header {
 	width: auto;
 }
 
+#placeholder {
+	font-size: 30px;
+}
+
 .sign {
 	height: 200px;
 	width: auto;
