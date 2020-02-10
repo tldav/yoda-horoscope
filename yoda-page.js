@@ -1,49 +1,51 @@
 //HS button function
 $("button").click(function() {
+	// when btn is clicked, the h2 disapears 
 	$("#placeholder").addClass("hide");
 
 	//takes value of the btn and puts it in the HS URL
 	var sm = this.value;
 	console.log(this.value);
+	//changing the picture src to specfic sign picked
 	switch (sm) {
 		case "aries":
-			$(".sign").attr("src", "assets/test.png");
+			$(".sign").attr("src", "assets/aries.jpeg");
 			break;
 		case "taurus":
-			$(".sign").attr("src", "assets/test.png");
+			$(".sign").attr("src", "assets/Taurus.jpg");
 			break;
 		case "gemini":
-			$(".sign").attr("src", "assets/test.png");
+			$(".sign").attr("src", "assets/gemini.jpg");
 			break;
 		case "cancer":
-			$(".sign").attr("src", "assets/test.png");
+			$(".sign").attr("src", "assets/cancer.jpeg");
 			break;
 		case "leo":
-			$(".sign").attr("src", "assets/test.png");
+			$(".sign").attr("src", "assets/leo.JPEG");
 			break;
 		case "virgo":
-			$(".sign").attr("src", "assets/test.png");
+			$(".sign").attr("src", "assets/virgo.jpg");
 			break;
 		case "libra":
-			$(".sign").attr("src", "assets/test.png");
+			$(".sign").attr("src", "assets/libra.jpeg");
 			break;
 		case "scorpio":
-			$(".sign").attr("src", "assets/test.png");
+			$(".sign").attr("src", "assets/scorpio.jpeg");
 			break;
 		case "sagittarius":
-			$(".sign").attr("src", "assets/test.png");
+			$(".sign").attr("src", "assets/sag.png");
 			break;
 		case "capricorn":
-			$(".sign").attr("src", "assets/test.png");
+			$(".sign").attr("src", "assets/capricorn.jpeg");
 			break;
 		case "aquarius":
-			$(".sign").attr("src", "assets/test.png");
+			$(".sign").attr("src", "assets/aq.jpeg");
 			break;
 		case "pisces":
-			$(".sign").attr("src", "assets/test.png");
+			$(".sign").attr("src", "assets/pi.jpeg");
 			break;
 	}
-
+	// var with ajax paramaters
 	var settings = {
 		async: true,
 		crossDomain: true,
@@ -60,7 +62,7 @@ $("button").click(function() {
 		},
 		data: {}
 	};
-	//yoda ajax
+	//hs ajax
 	$.ajax(settings).then(function(fortune) {
 		//normal fortune
 		var fortuneW = fortune.description;
@@ -80,6 +82,7 @@ $("button").click(function() {
 			},
 			data: {}
 		};
+		// yoda ajax
 		$.ajax(settings).done(function(response) {
 			//transaltes it to yoda talk
 			console.log(response.contents.translated);
@@ -89,5 +92,7 @@ $("button").click(function() {
 				.empty()
 				.append(finishedp);
 		});
+		// 1st ajax ends
 	});
+	// btn ends
 });
