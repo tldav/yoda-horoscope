@@ -28,19 +28,6 @@ a {
 	color: #ecc94b;
 }
 
-#proceed {
-	/* appearance: none;
-      -moz-appearance: none;
-      -webkit-appearance: none; */
-	height: 30px;
-	width: 200px;
-	left: 50%;
-	top: 50%;
-	margin-top: -15px; /* = -height / 2   */
-	margin-left: -100px; /* = -width / 2    */
-	position: fixed; /* Fixed is better */
-}
-
 .star-wars-intro {
 	background: url("./assets/yoda2.jpeg") center center;
 	background-size: cover;
@@ -161,11 +148,6 @@ a {
 .star-wars-intro .main-logo > img {
 	max-width: 100%;
 }
-
-/* .main-logo img {
-	width: 900px;
-	height: 100%;
-} */
 
 @-webkit-keyframes intro {
 	0% {
