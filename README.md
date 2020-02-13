@@ -1,6 +1,4 @@
-# The YodaScope
-
-## A Horoscope For Those In Need of A Higher Syntax
+# The YodaScope - A Horoscope For Those In Need of A Higher Syntax
 
 ## User Story
 
@@ -14,7 +12,7 @@ THEN I can input my birth sign and receive a western horoscope in yoda speak
 
 ## Summary
 
-Before discounting this project as financially frivolous or academically puerile, please note that it meaningly combines a $9.3 billion franchise (Star Wars) with a $2.1 billion industry (astrology).
+Before discounting this project as financially frivolous or academically puerile, please note that it meaningfullyly combines a $9.3 billion franchise (Star Wars) with a $2.1 billion industry (astrology).
 
 Millenials and baby boomers alike have taken an interest in the stars as esoteric guiding lights as they seek solace and security in a world that seems more ephemeral and temporary than ever before.
 
@@ -24,36 +22,34 @@ An alternative to this malicious and oppressive syntax was introduced to the pub
 
 Our application, the YodaScope, unlocks the wisdom of western astrology using the syntax of the Yoda.
 
-## Application Requirements
+## Application Specs
 
--   Must use at least two server-side APIs
+-   Two server-side APIs
+    - RapidAPI
+        - Aztro
+        - Yodish
 
--   Must use a CSS framework _other than_ Bootstrap
+-   CSS Frameworks
+    - Bootstrap
+    - Tailwind
 
--   Must be interactive (i.e: accept and respond to user input)
+-   Interactive 
+    - user selects his/her astrological sign
 
--   Use at least one new third-party API
+-   Polished UI
 
--   Must have a polished UI
+-   Quality coding standards
 
--   Must meet good quality coding standards
+-   No alerts, confirms or prompts
 
--   Does not use alerts, confirms or prompts (look into _modals_)
+-   Deployed to GitHub Pages
 
--   Must be deployed to GitHub Pages
+## Screenshots of Deployed Application
 
-## Presentation Requirements
+![Intro Page](assets/YodaScope ScreenShot1.png)
+![Main Page] (assets/YodaScope ScreenShot2.png)
 
-Use this [project presentation template](https://docs.google.com/presentation/d/1_u8TKy5zW5UlrVQVnyDEZ0unGI2tjQPDEpA0FNuBKAw/edit?usp=sharing) to address the following:
+## Links to GitHub Repository and Deployed Application
 
--   Elevator pitch: a one minute description of your application
-
--   Concept: What is your user story? What was your motivation for development?
-
--   Process: What were the technologies used? How were tasks and roles broken down and assigned? What challenges did you encounter? What were your successes?
-
--   Demo: Show your stuff!
-
--   Directions for Future Development
-
--   Links to the deployed application and the GitHub repository
+[GitHub Repository](https://github.com/tldav/yoda-horoscope/)
+[Deployed Application] (https://tldav.github.io/yoda-horoscope/)
