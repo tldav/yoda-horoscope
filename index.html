@@ -28,22 +28,43 @@
 	<body>
 		<!-- adding header and footer for play audio button and get yodascope shortcut button -->
 		<header class="page-header font-small fixed-top">
-			<a class="navbar-brand w-full pb-5" onclick="playAudio()" href="#"
+			<h1 class="bg-black text-black pb-5">Secret Text</h1>
+			<!-- <a class="navbar-brand w-full pb-5" onclick="playAudio()" href="#"
 				>Prepare For Your YodaScope, play this Audio you will. Patience,
 				Virtue Is!</a
-			>
+			> -->
 		</header>
 		<!-- <div id="footerHide" class="hide"> -->
+
 		<footer class="page-footer font-small fixed-bottom pt-5">
-			<div
-				class="d-flex justify-content-center"
-				id="navbarSupportedContent"
-			>
-				<div class="nav-item">
-					<a class="nav-link" href="yoda-page.html"
-						>Get Your YodaScope</a
+			<div class="row justify-content-between">
+				<div class="col-6 col-md-4 col-lg-3">
+					<button
+						onclick="playAudio()"
+						class="index-button bg-black text-yellow-500 rounded hover:bg-yellow-500 hover:text-black outline"
 					>
+						Toggle Music
+					</button>
 				</div>
+
+				<div class="col-6 col-md-4 col-lg-3">
+					<button
+						class="index-button bg-black text-yellow-500 rounded hover:bg-yellow-500 hover:text-black outline"
+					>
+						Skip Intro
+					</button>
+				</div>
+
+				<!-- <div
+					class="d-flex justify-content-center"
+					id="navbarSupportedContent"
+				>
+					<div class="nav-item">
+						<a class="nav-link" href="yoda-page.html"
+							>Get Your YodaScope</a
+						>
+					</div>
+				</div> -->
 			</div>
 		</footer>
 		<!-- </div> -->
@@ -73,7 +94,7 @@
 					</p>
 					<br />
 					<p class="content-body">
-						<br /><br /><br />
+						<br />
 						Have recent social and political events left you
 						concerned about the future?
 						<br /><br /><br />

@@ -150,6 +150,20 @@ a {
 	max-width: 100%;
 }
 
+.outline:focus {
+	box-shadow: none;
+	outline: none;
+}
+
+.index-button {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 12px;
+	font-size: 15px;
+	width: 75%;
+}
+
 @-webkit-keyframes intro {
 	0% {
 		opacity: 1;
