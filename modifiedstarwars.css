@@ -15,11 +15,6 @@ html {
 	font-family: "Russo One", sans-serif;
 }
 
-.page-footer {
-	background-color: #000;
-	color: #ecc94b;
-}
-
 .hide {
 	display: none;
 }
@@ -162,6 +157,10 @@ a {
 	padding: 12px;
 	font-size: 15px;
 	width: 75%;
+}
+
+#invisible {
+	visibility: hidden;
 }
 
 @-webkit-keyframes intro {
