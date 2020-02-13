@@ -28,29 +28,25 @@
 	<body>
 		<!-- adding header and footer for play audio button and get yodascope shortcut button -->
 		<header class="page-header font-small fixed-top">
-			<a
-				class="navbar-brand"
-				id="disappear"
-				onclick="playAudio()"
-				href="#"
+			<a class="navbar-brand w-full pb-5" onclick="playAudio()" href="#"
 				>Prepare For Your YodaScope, play this Audio you will. Patience,
 				Virtue Is!</a
 			>
 		</header>
-		<div id="footerHide" class="hide">
-			<footer class="page-footer font-small fixed-bottom">
-				<div
-					class="d-flex justify-content-end"
-					id="navbarSupportedContent"
-				>
-					<div class="nav-item">
-						<a class="nav-link" href="yoda-page.html"
-							>Get Your YodaScope</a
-						>
-					</div>
+		<!-- <div id="footerHide" class="hide"> -->
+		<footer class="page-footer font-small fixed-bottom pt-5">
+			<div
+				class="d-flex justify-content-center"
+				id="navbarSupportedContent"
+			>
+				<div class="nav-item">
+					<a class="nav-link" href="yoda-page.html"
+						>Get Your YodaScope</a
+					>
 				</div>
-			</footer>
-		</div>
+			</div>
+		</footer>
+		<!-- </div> -->
 		<!-- audio source is stored on HTML but isn't visible -->
 		<audio id="myAudio">
 			<source
@@ -97,6 +93,7 @@
 				</div>
 			</div>
 		</div>
+
 		<!-- Optional JavaScript -->
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 		<script
