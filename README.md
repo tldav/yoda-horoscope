@@ -25,16 +25,19 @@ Our application, the YodaScope, unlocks the wisdom of western astrology using th
 ## Application Specs
 
 -   Two server-side APIs
-    - RapidAPI
-        - Aztro
-        - Yodish
+
+    -   RapidAPI
+        -   Aztro
+        -   Yodish
 
 -   CSS Frameworks
-    - Bootstrap
-    - Tailwind
 
--   Interactive 
-    - user selects his/her astrological sign
+    -   Bootstrap
+    -   Tailwind
+
+-   Interactive
+
+    -   user selects his/her astrological sign
 
 -   Polished UI
 
@@ -46,10 +49,10 @@ Our application, the YodaScope, unlocks the wisdom of western astrology using th
 
 ## Screenshots of Deployed Application
 
-![Intro Page](assets/YodaScope ScreenShot1.png)
-![Main Page] (assets/YodaScope ScreenShot2.png)
+![Intro Page](assets/intro-page.png)
+![Main Page](assets/main-page.png)
 
 ## Links to GitHub Repository and Deployed Application
 
 [GitHub Repository](https://github.com/tldav/yoda-horoscope/)
-[Deployed Application] (https://tldav.github.io/yoda-horoscope/)
+[Deployed Application](https://tldav.github.io/yoda-horoscope/)
