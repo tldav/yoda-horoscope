@@ -1,11 +1,10 @@
 //HS button function
-$("button").click(function() {
+$("button").click(function () {
 	// when btn is clicked, the h2 disapears
 	$("#placeholder").addClass("hide");
 
 	//takes value of the btn and puts it in the HS URL
 	var sm = this.value;
-	console.log(this.value);
 	//changing the picture src to specfic sign picked
 	switch (sm) {
 		case "aries":
@@ -63,12 +62,11 @@ $("button").click(function() {
 		data: {}
 	};
 	//hs ajax
-	$.ajax(settings).then(function(fortune) {
+	$.ajax(settings).then(function (fortune) {
 		//normal fortune
 		var fortuneW = fortune.description;
 
 		var fixed = encodeURIComponent(fortuneW);
-		console.log(fortuneW);
 		var settings = {
 			async: true,
 			crossDomain: true,
@@ -83,14 +81,11 @@ $("button").click(function() {
 			data: {}
 		};
 		// yoda ajax
-		$.ajax(settings).done(function(response) {
+		$.ajax(settings).done(function (response) {
 			//transaltes it to yoda talk
-			console.log(response.contents.translated);
 			finishedp = response.contents.translated;
 			//clears the div and puts new input
-			$("#yodadiv")
-				.empty()
-				.append(finishedp);
+			$("#yodadiv").empty().append(finishedp);
 		});
 		// 1st ajax ends
 	});

@@ -3,7 +3,6 @@
 var isPlaying = false;
 
 function playAudio() {
-	console.log("playAudio");
 	var x = document.getElementById("myAudio");
 	if (isPlaying) {
 		x.pause();
@@ -11,10 +10,10 @@ function playAudio() {
 		x.play();
 	}
 
-	x.onplaying = function() {
+	x.onplaying = function () {
 		isPlaying = true;
 	};
-	x.onpause = function() {
+	x.onpause = function () {
 		isPlaying = false;
 	};
 }
