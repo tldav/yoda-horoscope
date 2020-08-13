@@ -33,7 +33,7 @@ Our application, the YodaScope, unlocks the wisdom of western astrology using th
 -   CSS Frameworks
 
     -   Bootstrap
-    -   Tailwind
+    -   Tailwind CSS
 
 -   Interactive
 
@@ -42,8 +42,6 @@ Our application, the YodaScope, unlocks the wisdom of western astrology using th
 -   Polished UI
 
 -   Quality coding standards
-
--   No alerts, confirms or prompts
 
 -   Deployed to GitHub Pages
 
