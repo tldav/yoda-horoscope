@@ -1,15 +1,5 @@
 # The YodaScope - A Horoscope For Those In Need of A Higher Syntax
 
-## User Story
-
-AS I am a person concerned about my future who only speaks Yoda Speak
-I WANT to be able to access a Western Horoscope in my native tongue
-SO THAT I can know how to make good decisions based on the science of western astrology
-
-GIVEN that I have access to the internet
-WHEN I access the website
-THEN I can input my birth sign and receive a western horoscope in yoda speak
-
 ## Summary
 
 Before discounting this project as financially frivolous or academically puerile, please note that it meaningfullyly combines a $9.3 billion franchise (Star Wars) with a $2.1 billion industry (astrology).
@@ -22,9 +12,34 @@ An alternative to this malicious and oppressive syntax was introduced to the pub
 
 Our application, the YodaScope, unlocks the wisdom of western astrology using the syntax of the Yoda.
 
-## Application Specs
+## Table of Contents
 
--   Two server-side APIs
+1. [Contributors](#contributors)
+2. [Technologies](#technologies)
+3. [Usage](#usage)
+4. [License](#license)
+5. [Contributing](#contributing)
+6. [Questions](#questions)
+
+## Contributors
+
+<p id="contributors"></p>
+<a href="https://github.com/nhodo" target="blank">Nathan hodo</a>
+<br>
+<a href="https://github.com/tldav" target="blank">Thomas Davis</a>
+<br>
+<a href="https://github.com/GeovonnieV" target="blank">Geovonnie Vasquez</a>
+<p></p>
+
+## Technologies
+
+<p id="technologies"></p>
+
+-   Languages
+
+    -   JavaScript with jQuery
+
+-   Third Party APIs
 
     -   RapidAPI
         -   Aztro
@@ -35,22 +50,41 @@ Our application, the YodaScope, unlocks the wisdom of western astrology using th
     -   Bootstrap
     -   Tailwind CSS
 
--   Interactive
+-   Deployed using GitHub Pages
 
-    -   user selects his/her astrological sign
+## Usage
 
--   Polished UI
+<p id="usage"></p>
 
--   Quality coding standards
+To start, open index.html in the browser of your choice. No installation required.
 
--   Deployed to GitHub Pages
+Find the deployed application [here](https://tldav.github.io/yoda-horoscope/)
 
-## Screenshots of Deployed Application
+## License
+
+<p id='license'></p>
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+## Contributing
+
+<p id='contributing'></p>
+
+If you would like to contribute to this project you can:
+
+-   Either fork or clone this repo [here](https://github.com/tldav/yoda-horoscope)
+-   Add any changes/upgrades you would like
+-   Update the README with changes made, new technologies used, etc.
+-   Create a new pull request [here](https://github.com/tldav/yoda-horoscope/compare)
+
+## Questions
+
+<p id='questions'></p>
+
+If you have questions about this application, please reach out to the creators via the email on their respective GitHub profiles, provided above.
+
+<p></p>
+<p></p>
 
 ![Intro Page](assets/intro-page.png)
 ![Main Page](assets/main-page.png)
-
-## Links to GitHub Repository and Deployed Application
-
-[GitHub Repository](https://github.com/tldav/yoda-horoscope/)
-[Deployed Application](https://tldav.github.io/yoda-horoscope/)
