@@ -1,12 +1,10 @@
-//HS button function
+// yoda-page.js
 $("button").click(function () {
-	// when btn is clicked, the h2 disapears
 	$("#placeholder").addClass("hide");
 
-	//takes value of the btn and puts it in the HS URL
-	var sm = this.value;
-	//changing the picture src to specfic sign picked
-	switch (sm) {
+	const sign = this.value;
+	console.log(sign);
+	switch (sign) {
 		case "aries":
 			$(".sign").attr("src", "assets/aries.png");
 			break;
@@ -50,7 +48,7 @@ $("button").click(function () {
 		crossDomain: true,
 		url:
 			"https://sameer-kumar-aztro-v1.p.rapidapi.com/?sign=" +
-			sm +
+			sign +
 			"&day=today",
 		method: "POST",
 		headers: {
