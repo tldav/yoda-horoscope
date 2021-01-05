@@ -1,20 +1,8 @@
-# The YodaScope
-
-## A Horoscope For Those In Need of A Higher Syntax
-
-## User Story
-
-AS I am a person concerned about my future who only speaks Yoda Speak
-I WANT to be able to access a Western Horoscope in my native tongue
-SO THAT I can know how to make good decisions based on the science of western astrology
-
-GIVEN that I have access to the internet
-WHEN I access the website
-THEN I can input my birth sign and receive a western horoscope in yoda speak
+# The YodaScope - A Horoscope For Those In Need of A Higher Syntax
 
 ## Summary
 
-Before discounting this project as financially frivolous or academically puerile, please note that it meaningly combines a $9.3 billion franchise (Star Wars) with a $2.1 billion industry (astrology).
+Before discounting this project as financially frivolous or academically puerile, please note that it meaningfullyly combines a $9.3 billion franchise (Star Wars) with a $2.1 billion industry (astrology).
 
 Millenials and baby boomers alike have taken an interest in the stars as esoteric guiding lights as they seek solace and security in a world that seems more ephemeral and temporary than ever before.
 
@@ -24,36 +12,79 @@ An alternative to this malicious and oppressive syntax was introduced to the pub
 
 Our application, the YodaScope, unlocks the wisdom of western astrology using the syntax of the Yoda.
 
-## Application Requirements
+## Table of Contents
 
--   Must use at least two server-side APIs
+1. [Contributors](#contributors)
+2. [Technologies](#technologies)
+3. [Usage](#usage)
+4. [License](#license)
+5. [Contributing](#contributing)
+6. [Questions](#questions)
 
--   Must use a CSS framework _other than_ Bootstrap
+## Contributors
 
--   Must be interactive (i.e: accept and respond to user input)
+<p id="contributors"></p>
+<a href="https://github.com/nhodo" target="blank">Nathan hodo</a>
+<br>
+<a href="https://github.com/tldav" target="blank">Thomas Davis</a>
+<br>
+<a href="https://github.com/GeovonnieV" target="blank">Geovonnie Vasquez</a>
+<p></p>
 
--   Use at least one new third-party API
+## Technologies
 
--   Must have a polished UI
+<p id="technologies"></p>
 
--   Must meet good quality coding standards
+-   Languages
 
--   Does not use alerts, confirms or prompts (look into _modals_)
+    -   JavaScript with jQuery
 
--   Must be deployed to GitHub Pages
+-   Third Party APIs
 
-## Presentation Requirements
+    -   RapidAPI
+        -   Aztro
+        -   Yodish
 
-Use this [project presentation template](https://docs.google.com/presentation/d/1_u8TKy5zW5UlrVQVnyDEZ0unGI2tjQPDEpA0FNuBKAw/edit?usp=sharing) to address the following:
+-   CSS Frameworks
 
--   Elevator pitch: a one minute description of your application
+    -   Bootstrap
+    -   Tailwind CSS
 
--   Concept: What is your user story? What was your motivation for development?
+-   Deployed using GitHub Pages
 
--   Process: What were the technologies used? How were tasks and roles broken down and assigned? What challenges did you encounter? What were your successes?
+## Usage
 
--   Demo: Show your stuff!
+<p id="usage"></p>
 
--   Directions for Future Development
+To start, open index.html in the browser of your choice. No installation required.
 
--   Links to the deployed application and the GitHub repository
+Find the deployed application [here](https://tldav.github.io/yoda-horoscope/)
+
+## License
+
+<p id='license'></p>
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+## Contributing
+
+<p id='contributing'></p>
+
+If you would like to contribute to this project you can:
+
+-   Either fork or clone this repo [here](https://github.com/tldav/yoda-horoscope)
+-   Add any changes/upgrades you would like
+-   Update the README with changes made, new technologies used, etc.
+-   Create a new pull request [here](https://github.com/tldav/yoda-horoscope/compare)
+
+## Questions
+
+<p id='questions'></p>
+
+If you have questions about this application, please reach out to the creators via the email on their respective GitHub profiles, provided above.
+
+<p></p>
+<p></p>
+
+![Intro Page](assets/intro-page.png)
+![Main Page](assets/main-page.png)
