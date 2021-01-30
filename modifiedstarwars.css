@@ -12,29 +12,26 @@ html {
 	height: 100%;
 	min-height: 100vh;
 	margin: 0px;
+	font-family: "Russo One", sans-serif;
 }
 
-#proceed {
-	/* appearance: none;
-      -moz-appearance: none;
-      -webkit-appearance: none; */
-	height: 30px;
-	width: 200px;
-	left: 50%;
-	top: 50%;
-	margin-top: -15px; /* = -height / 2   */
-	margin-left: -100px; /* = -width / 2    */
-	position: fixed; /* Fixed is better */
+.hide {
+	display: none;
+}
+
+a {
+	background-color: #000;
+	color: #ecc94b;
 }
 
 .star-wars-intro {
-	background: url("./media/yoda.jpeg") center center;
+	background: url("./assets/yoda2.jpeg") center center;
 	background-size: cover;
 	width: 100%;
 	height: 100%;
-	font-family: "Droid Sans", arial, verdana, sans-serif;
+	font-family: "Russo One", sans-serif;
 	font-weight: 700;
-	color: #ebd71c;
+	color: #ecc94b;
 	background-color: #000;
 	overflow: hidden;
 	position: relative;
@@ -87,8 +84,8 @@ html {
 }
 
 .star-wars-intro .space-button {
-	color: #ebd71c;
-	border: 12px solid #ebd71c;
+	color: #ecc94b;
+	border: 12px solid #ecc94b;
 	padding: 20px;
 	background: transparent;
 	text-decoration: none;
@@ -98,15 +95,15 @@ html {
 }
 
 .star-wars-intro .space-button:hover {
-	background-color: #d2be03;
-	border-color: #d2be03;
+	background-color: #ecc94b;
+	border-color: #ecc94b;
 	color: black;
 }
 
 .star-wars-intro .space-button:active,
 .star-wars-intro .space-button:focus {
-	background-color: #b8a40a;
-	border-color: #b8a40a;
+	background-color: #ecc94b;
+	border-color: #ecc94b;
 	color: black;
 }
 
@@ -127,14 +124,14 @@ html {
 	width: 2.6em;
 	left: 50%;
 	top: 20vh;
-	font-size: 10em;
+	font-size: 25em;
 	text-align: center;
 	margin-left: -1.3em;
 	line-height: 0.8em;
 	letter-spacing: -0.05em;
 	color: #000;
-	text-shadow: -2px -2px 0 #ebd71c, 2px -2px 0 #ebd71c, -2px 2px 0 #ebd71c,
-		2px 2px 0 #ebd71c;
+	text-shadow: -2px -2px 0 #ecc94b, 2px -2px 0 #ecc94b, -2px 2px 0 #ecc94b,
+		2px 2px 0 #ecc94b;
 	opacity: 0;
 	z-index: 1;
 	-webkit-animation: logo 5s ease-out 2.5s;
@@ -146,6 +143,24 @@ html {
 
 .star-wars-intro .main-logo > img {
 	max-width: 100%;
+}
+
+.outline:focus {
+	box-shadow: none;
+	outline: none;
+}
+
+.index-button {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 12px;
+	font-size: 15px;
+	width: 75%;
+}
+
+#invisible {
+	visibility: hidden;
 }
 
 @-webkit-keyframes intro {
@@ -280,7 +295,7 @@ html {
 
 @keyframes scroll {
 	0% {
-		top: 100%;
+		top: 108%;
 	}
 	100% {
 		top: -170%;

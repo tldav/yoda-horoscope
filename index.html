@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
+		<!-- Bootstrap CSS -->
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+			integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+			crossorigin="anonymous"
+		/>
+		<link
+			href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css?family=Russo+One&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="modifiedstarwars.css" />
+		<title>YodaScope</title>
+	</head>
+	<body>
+		<!-- Hidden button in header was a bandaid fix for making the empty header equal size with the footer w/ buttons -->
+		<header class="page-header bg-black bg-black fixed-top pb-5">
+			<div class="row justify-content-between">
+				<div class="col-6 col-md-4 col-lg-3">
+					<button
+						id="invisible"
+						class="index-button bg-black text-yellow-500 rounded hover:bg-yellow-500 hover:text-black outline"
+					>
+						Toggle Music
+					</button>
+				</div>
+			</div>
+		</header>
+
+		<footer class="page-footer bg-black font-small fixed-bottom pt-5">
+			<div class="row justify-content-between">
+				<div class="col-6 col-md-4 col-lg-3">
+					<button
+						onclick="playAudio()"
+						class="index-button bg-black text-yellow-500 rounded hover:bg-yellow-500 hover:text-black outline"
+					>
+						Toggle Music (volume warning)
+					</button>
+				</div>
+
+				<div class="col-6 col-md-4 col-lg-3">
+					<button
+						onclick="location.href='yoda-page.html'"
+						class="index-button bg-black text-yellow-500 rounded hover:bg-yellow-500 hover:text-black outline"
+					>
+						Skip Intro
+					</button>
+				</div>
+			</div>
+		</footer>
+		<audio id="myAudio">
+			<source
+				src="assets/Star Wars Intro HD 1080p.mp3"
+				type="audio/mpeg"
+			/>
+		</audio>
+		<div class="star-wars-intro">
+			<!-- Blue Intro Text -->
+			<p class="intro-text">Introducing...</p>
+			<!-- Logo Image or Text goes in here -->
+			<h2 class="main-logo">
+				<img src="./assets/transparent-bg.png" />
+			</h2>
+			<br /><br /><br /><br /><br /><br /><br /><br />
+			<!-- All Scrolling Content Goes in here -->
+			<div class="main-content">
+				<div class="title-content">
+					<p class="content-header">
+						Episode IV <br />
+						A NEW SCOPE <br />
+					</p>
+					<br />
+					<p class="content-body">
+						<br />
+						Have recent social and political events left you
+						concerned about the future?
+						<br /><br /><br />
+						Do you feel marginalized in a world that doesn't provide
+						high quality horoscopes in a Yoda-like syntax?
+						<br /><br /><br />
+						This application, the YodaScope, unlocks the wisdom of
+						western astrology using the syntax of the Yoda.
+						<br /><br /><br />
+						Force be with you, may it.
+					</p>
+					<br />
+					<!-- button or link or whatever -->
+					<a href="yoda-page.html" class="space-button"
+						>Get Your YodaScope Now... Click Here</a
+					>
+				</div>
+			</div>
+		</div>
+
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script
+			src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+			integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+			integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+			integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+			crossorigin="anonymous"
+		></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="audio.js"></script>
+	</body>
+</html>
