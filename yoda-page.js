@@ -87,5 +87,4 @@ $("button").click(function () {
 		});
 		// 1st ajax ends
 	});
-	// btn ends
 });
