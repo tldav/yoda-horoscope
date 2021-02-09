@@ -53,8 +53,7 @@ $("button").click(function () {
 		method: "POST",
 		headers: {
 			"x-rapidapi-host": "sameer-kumar-aztro-v1.p.rapidapi.com",
-			"x-rapidapi-key":
-				"45362c1ca9msh6a653145b56fe97p190a61jsnedfdda4b419b",
+			"x-rapidapi-key": process.env.KEY,
 			"content-type": "application/x-www-form-urlencoded"
 		},
 		data: {}
@@ -72,8 +71,7 @@ $("button").click(function () {
 			method: "POST",
 			headers: {
 				"x-rapidapi-host": "yodish.p.rapidapi.com",
-				"x-rapidapi-key":
-					"45362c1ca9msh6a653145b56fe97p190a61jsnedfdda4b419b",
+				"x-rapidapi-key": process.env.KEY,
 				"content-type": "application/x-www-form-urlencoded"
 			},
 			data: {}
