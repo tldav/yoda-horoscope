@@ -54,7 +54,7 @@ $("button").click(function () {
 		headers: {
 			"x-rapidapi-host": "sameer-kumar-aztro-v1.p.rapidapi.com",
 			"x-rapidapi-key":
-				"45362c1ca9msh6a653145b56fe97p190a61jsnedfdda4b419b",
+				"f4eb776decmsh99b8177e1d20cc3p194787jsnd906d5734e83",
 			"content-type": "application/x-www-form-urlencoded"
 		},
 		data: {}
@@ -73,7 +73,7 @@ $("button").click(function () {
 			headers: {
 				"x-rapidapi-host": "yodish.p.rapidapi.com",
 				"x-rapidapi-key":
-					"45362c1ca9msh6a653145b56fe97p190a61jsnedfdda4b419b",
+					"f4eb776decmsh99b8177e1d20cc3p194787jsnd906d5734e83",
 				"content-type": "application/x-www-form-urlencoded"
 			},
 			data: {}
@@ -87,5 +87,4 @@ $("button").click(function () {
 		});
 		// 1st ajax ends
 	});
-	// btn ends
 });
