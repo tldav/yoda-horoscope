@@ -42,7 +42,7 @@ $("button").click(function () {
 			$(".sign").attr("src", "assets/pisces.png");
 			break;
 	}
-	// var with ajax paramaters
+
 	var settings = {
 		async: true,
 		crossDomain: true,
@@ -59,9 +59,8 @@ $("button").click(function () {
 		},
 		data: {}
 	};
-	//hs ajax
+
 	$.ajax(settings).then(function (fortune) {
-		//normal fortune
 		var fortuneW = fortune.description;
 
 		var fixed = encodeURIComponent(fortuneW);
