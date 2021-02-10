@@ -59,7 +59,7 @@ $("button").click(function () {
 		},
 		data: {}
 	};
-	//hs ajax
+
 	$.ajax(settings).then(function (fortune) {
 		//normal fortune
 		var fortuneW = fortune.description;
