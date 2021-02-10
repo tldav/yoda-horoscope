@@ -42,7 +42,7 @@ $("button").click(function () {
 			$(".sign").attr("src", "assets/pisces.png");
 			break;
 	}
-	// var with ajax paramaters
+
 	var settings = {
 		async: true,
 		crossDomain: true,
