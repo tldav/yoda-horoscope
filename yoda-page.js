@@ -61,7 +61,6 @@ $("button").click(function () {
 	};
 
 	$.ajax(settings).then(function (fortune) {
-		//normal fortune
 		var fortuneW = fortune.description;
 
 		var fixed = encodeURIComponent(fortuneW);
