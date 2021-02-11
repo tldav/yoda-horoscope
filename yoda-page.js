@@ -60,8 +60,8 @@ $("button").click(function () {
 		data: {}
 	};
 
-	$.ajax(aztroConfig).then(function (fortune) {
-		var fortuneW = fortune.description;
+	$.ajax(aztroConfig).then(function (horoscope) {
+		var fortuneW = horoscope.description;
 
 		var fixed = encodeURIComponent(fortuneW);
 		var yodaConfig = {
