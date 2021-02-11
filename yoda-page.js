@@ -81,7 +81,6 @@ $("button").click(function () {
 		};
 
 		$.ajax(yodaConfig).done(function (response) {
-			//transaltes it to yoda talk
 			translatedHoroscope = response.contents.translated;
 			//clears the div and puts new input
 			$("#yodadiv").empty().append(translatedHoroscope);
