@@ -60,14 +60,16 @@ $("button").click(function () {
 		data: {}
 	};
 
-	$.ajax(aztroConfig).then(function (horoscope) {
-		var fortuneW = horoscope.description;
+	$.ajax(aztroConfig).then(function (response) {
+		var dailyHoroscope = response.description;
 
-		var fixed = encodeURIComponent(fortuneW);
+		var dailyHoroscopeFix = encodeURIComponent(dailyHoroscope);
 		var yodaConfig = {
 			async: true,
 			crossDomain: true,
-			url: "https://yodish.p.rapidapi.com/yoda.json?text=" + fixed,
+			url:
+				"https://yodish.p.rapidapi.com/yoda.json?text=" +
+				dailyHoroscopeFix,
 			method: "POST",
 			headers: {
 				"x-rapidapi-host": "yodish.p.rapidapi.com",
