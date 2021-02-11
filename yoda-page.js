@@ -82,9 +82,9 @@ $("button").click(function () {
 		// yoda ajax
 		$.ajax(yodaConfig).done(function (response) {
 			//transaltes it to yoda talk
-			finishedp = response.contents.translated;
+			translatedHoroscope = response.contents.translated;
 			//clears the div and puts new input
-			$("#yodadiv").empty().append(finishedp);
+			$("#yodadiv").empty().append(translatedHoroscope);
 		});
 		// 1st ajax ends
 	});
