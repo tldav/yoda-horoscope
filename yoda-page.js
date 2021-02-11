@@ -43,7 +43,7 @@ $("button").click(function () {
 			break;
 	}
 
-	var aztroConfig = {
+	const aztroConfig = {
 		async: true,
 		crossDomain: true,
 		url:
@@ -61,10 +61,10 @@ $("button").click(function () {
 	};
 
 	$.ajax(aztroConfig).then(function (response) {
-		var dailyHoroscope = response.description;
+		const dailyHoroscope = response.description;
 
-		var dailyHoroscopeFix = encodeURIComponent(dailyHoroscope);
-		var yodaConfig = {
+		const dailyHoroscopeFix = encodeURIComponent(dailyHoroscope);
+		const yodaConfig = {
 			async: true,
 			crossDomain: true,
 			url:
