@@ -43,7 +43,7 @@ $("button").click(function () {
 			break;
 	}
 
-	var settings = {
+	var aztroConfig = {
 		async: true,
 		crossDomain: true,
 		url:
@@ -60,11 +60,11 @@ $("button").click(function () {
 		data: {}
 	};
 
-	$.ajax(settings).then(function (fortune) {
+	$.ajax(aztroConfig).then(function (fortune) {
 		var fortuneW = fortune.description;
 
 		var fixed = encodeURIComponent(fortuneW);
-		var settings = {
+		var yodaConfig = {
 			async: true,
 			crossDomain: true,
 			url: "https://yodish.p.rapidapi.com/yoda.json?text=" + fixed,
@@ -78,7 +78,7 @@ $("button").click(function () {
 			data: {}
 		};
 		// yoda ajax
-		$.ajax(settings).done(function (response) {
+		$.ajax(yodaConfig).done(function (response) {
 			//transaltes it to yoda talk
 			finishedp = response.contents.translated;
 			//clears the div and puts new input
