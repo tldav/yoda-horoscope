@@ -79,7 +79,7 @@ $("button").click(function () {
 			},
 			data: {}
 		};
-		// yoda ajax
+
 		$.ajax(yodaConfig).done(function (response) {
 			//transaltes it to yoda talk
 			translatedHoroscope = response.contents.translated;
