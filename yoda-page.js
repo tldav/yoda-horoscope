@@ -43,7 +43,7 @@ $("button").click(function () {
 			break;
 	}
 
-	var settings = {
+	const aztroConfig = {
 		async: true,
 		crossDomain: true,
 		url:
@@ -60,14 +60,16 @@ $("button").click(function () {
 		data: {}
 	};
 
-	$.ajax(settings).then(function (fortune) {
-		var fortuneW = fortune.description;
+	$.ajax(aztroConfig).then(function (response) {
+		const dailyHoroscope = response.description;
 
-		var fixed = encodeURIComponent(fortuneW);
-		var settings = {
+		const dailyHoroscopeFix = encodeURIComponent(dailyHoroscope);
+		const yodaConfig = {
 			async: true,
 			crossDomain: true,
-			url: "https://yodish.p.rapidapi.com/yoda.json?text=" + fixed,
+			url:
+				"https://yodish.p.rapidapi.com/yoda.json?text=" +
+				dailyHoroscopeFix,
 			method: "POST",
 			headers: {
 				"x-rapidapi-host": "yodish.p.rapidapi.com",
@@ -77,12 +79,11 @@ $("button").click(function () {
 			},
 			data: {}
 		};
-		// yoda ajax
-		$.ajax(settings).done(function (response) {
-			//transaltes it to yoda talk
-			finishedp = response.contents.translated;
+
+		$.ajax(yodaConfig).done(function (response) {
+			translatedHoroscope = response.contents.translated;
 			//clears the div and puts new input
-			$("#yodadiv").empty().append(finishedp);
+			$("#yodadiv").empty().append(translatedHoroscope);
 		});
 		// 1st ajax ends
 	});
