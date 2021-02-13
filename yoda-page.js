@@ -85,6 +85,5 @@ $("button").click(function () {
 			//clears the div and puts new input
 			$("#yodadiv").empty().append(translatedHoroscope);
 		});
-		// 1st ajax ends
 	});
 });
