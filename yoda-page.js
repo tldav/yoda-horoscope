@@ -82,9 +82,7 @@ $("button").click(function () {
 
 		$.ajax(yodaConfig).done(function (response) {
 			translatedHoroscope = response.contents.translated;
-			//clears the div and puts new input
 			$("#yodadiv").empty().append(translatedHoroscope);
 		});
-		// 1st ajax ends
 	});
 });
