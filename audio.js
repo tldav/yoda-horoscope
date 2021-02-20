@@ -1,5 +1,3 @@
-// when the audio button is clicked,
-// the audio button will dissappear and music will start:
 let isPlaying = false;
 
 function playAudio() {
