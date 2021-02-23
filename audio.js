@@ -1,7 +1,7 @@
 let isPlaying = false;
 
 function playAudio() {
-	var x = document.getElementById("myAudio");
+	const x = document.getElementById("myAudio");
 	if (isPlaying) {
 		x.pause();
 	} else {
