@@ -1,4 +1,3 @@
-// yoda-page.js
 $("button").click(function () {
 	$("#placeholder").addClass("hide");
 
