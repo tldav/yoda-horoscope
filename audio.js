@@ -1,9 +1,7 @@
-// when the audio button is clicked,
-// the audio button will dissappear and music will start:
-var isPlaying = false;
+let isPlaying = false;
 
 function playAudio() {
-	var x = document.getElementById("myAudio");
+	const x = document.getElementById("my-audio");
 	if (isPlaying) {
 		x.pause();
 	} else {

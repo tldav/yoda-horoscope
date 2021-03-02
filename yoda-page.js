@@ -1,9 +1,8 @@
-// yoda-page.js
 $("button").click(function () {
 	$("#placeholder").addClass("hide");
 
 	const sign = this.value;
-	console.log(sign);
+
 	switch (sign) {
 		case "aries":
 			$(".sign").attr("src", "assets/aries.png");
