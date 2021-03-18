@@ -1,17 +1,17 @@
 let isPlaying = false;
 
 function playAudio() {
-	const x = document.getElementById("my-audio");
+	const audio = document.getElementById("audio");
 	if (isPlaying) {
-		x.pause();
+		audio.pause();
 	} else {
-		x.play();
+		audio.play();
 	}
 
-	x.onplaying = function () {
+	audio.onplaying = function () {
 		isPlaying = true;
 	};
-	x.onpause = function () {
+	audio.onpause = function () {
 		isPlaying = false;
 	};
 }
