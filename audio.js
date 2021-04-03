@@ -4,7 +4,7 @@ function playAudio() {
 	const audio = document.getElementById("audio");
 	isPlaying ? audio.pause() : audio.play();
 
-	audio.onplaying = function () {
+	audio.onplaying = () => {
 		isPlaying = true;
 	};
 	audio.onpause = function () {
